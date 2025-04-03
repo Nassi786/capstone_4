@@ -12,7 +12,7 @@ A simple Node.js & Express-based web application that fetches and displays weath
 ## 📸 Preview  
 ![Weather App Screenshot]
 
-## 🛠️ Installation  ![Screenshot 2025-04-03 175514](https://github.com/user-attachments/assets/d42d9080-45f2-4e96-8eb3-21f551abade6)
+![Screenshot 2025-04-03 175514](https://github.com/user-attachments/assets/d42d9080-45f2-4e96-8eb3-21f551abade6)
 
 
 ![Screenshot 2025-04-03 175526](https://github.com/user-attachments/assets/77f79d20-2531-4a26-8b22-54592bc0102d)
