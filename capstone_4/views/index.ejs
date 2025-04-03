@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joke Generator</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>Get a Personalized Joke</h1>
+    <form action="/getJoke" method="POST">
+        <input type="text" name="name" placeholder="Enter your name" required>
+        <button type="submit">Get Joke</button>
+    </form>
+    
+    <% if (joke) { %>
+        <p class="joke"><%= joke %></p>
+    <% } %>
+
+    <% if (error) { %>
+        <p class="error"><%= error %></p>
+    <% } %>
+</body>
+</html>
